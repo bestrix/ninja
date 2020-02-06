@@ -1,0 +1,14 @@
+#8 export/import
+import some_one from './../' & export default some_one
+
+
+#9 export/import наших компонентов
+React' must be in scope when using JSX отдельно экспортируем react
+import React from 'react';
+
+
+#10 опасность auto import 
+Сканирует export файлов и автоматически предлагает импорт 
+чтобы заработал надо создать новую компоненту
+
+#11
