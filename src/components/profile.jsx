@@ -1,9 +1,9 @@
 import React from 'react';
-import "./profile.css"
+import s from "./profile.module.css"
 
 function Profile(){
     return(
-      <div className="profile">
+      <div className={s.profile}>
       <div>
       <img src=""></img>
       </div>
@@ -12,7 +12,7 @@ function Profile(){
         my post
         <div>new post</div>
         <div>
-          <div>post1</div>
+          <div className={s.item}>post1</div>
           <div>post2</div>
         </div>
       </div>

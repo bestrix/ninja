@@ -1,10 +1,13 @@
 import React from 'react';
-import classes from"./header.css";
+import s from "./header.module.css";
 
 
 function Header(){
     return(
-        <header className="{classes.header}"><h1>Header</h1></header>
+        <header className={s.header}>
+        
+       
+        </header>
     )
 }
 
